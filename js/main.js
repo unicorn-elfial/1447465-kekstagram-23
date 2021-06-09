@@ -32,11 +32,11 @@ function randomNameIndex (min, max) {
 }
 
   function id () {
-    Math.floor (math.random () * 25) + 1;
+    return Math.floor (math.random () * 25) + 1;
     return id;
   }
   function likes () {
-    Math.floor (math.random () * 200) + 15;
+   return Math.floor (math.random () * 200) + 15;
     return likes;
   }
 

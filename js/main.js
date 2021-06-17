@@ -1,5 +1,6 @@
-const createPhoto;
-
+function createPhoto () {
+      return coments;
+}
 
 function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
@@ -8,13 +9,16 @@ function getRandomIntInclusive(min, max) {
 }
 
 function maxLine(checkedString, maxLength) {
-    if (checkedString <= maxLength) {
-        return true;
-    } else {
-        return false;
-    }
+      return checkedString <= maxLength;
 }
+const description = ['милота зашкаливает'];
+const message = ['Моя бабушка случайно чихнула с фотоаппаратом в руках и у неё получилась фотография лучше.']
 
+function randomNameIndex(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random(NAMES) * (max - min + 1)) + min;
+}
 
 const NAMES = [
     'Ира',
@@ -26,15 +30,6 @@ const NAMES = [
 ];
 const url = 'photos/{{i}}.jpg';
 
-const description = ['милота зашкаливает'];
-const comments = ['Моя бабушка случайно чихнула с фотоаппаратом в руках и у неё получилась фотография лучше.']
-
-function randomNameIndex(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random(NAMES) * (max - min + 1)) + min;
-}
-
 function id() {
     return Math.floor(math.random() * 25) + 1;
 }
@@ -42,14 +37,14 @@ function id() {
 function likes() {
     return Math.floor(math.random() * 200) + 15;
 }
-const createPhoto[
+const coments = [
     id: '',
     avatar: '',
     message: '',
     name: NAMES[randomNameIndex] + ' ',
     likes: ''
 ];
-};
+
 
 
 console.log(

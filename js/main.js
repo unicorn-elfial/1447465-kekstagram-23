@@ -1,10 +1,8 @@
 import {
-    './util.js'
-} from './main.js';
-
-import {
-    './data.js';
-} from './main.js';
+    checkStringLength,
+    getRandomPositiveInteger
+}
+from './utils';
 
 function getRandomIntInclusive (min, max) {
   min = Math.ceil(min);

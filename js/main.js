@@ -1,12 +1,12 @@
 import {
     checkStringLength   
 }
-from './utils';
+from './utils/check-string-length.js';
 
 import {
     getRandomPositiveInteger 
 }
-from './utils';
+from './utils/get-random-positive-integer.js';
    
 function getRandomIntInclusive (min, max) {
   min = Math.ceil(min);

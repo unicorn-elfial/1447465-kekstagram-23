@@ -21,7 +21,7 @@ function randomNameIndex(min, max) {
     return Math.floor(Math.random(NAMES) * (max - min + 1)) + min;
 }
 
-const NAMES = [
+const names = [
     'Ира',
     'Вася',
     'Карина',
@@ -38,13 +38,13 @@ function id() {
 function likes() {
     return Math.floor(math.random() * 200) + 15;
 }
-const coments = [
+const coments = {
     id: '',
     avatar: '',
     message: '',
     name: NAMES[randomNameIndex] + ' ',
     likes: ''
-];
+};
 
 
 

@@ -20,7 +20,7 @@ function randomNameIndex(min, max) {
     return Math.floor(Math.random(NAMES) * (max - min + 1)) + min;
 }
 
-const NAMES = [
+const names = [
     'Ира',
     'Вася',
     'Карина',

@@ -34,7 +34,7 @@ function id() {
     return Math.floor(math.random() * 25) + 1;
 }
 
-function likes() {
+function getLikes() {
     return Math.floor(math.random() * 200) + 15;
 }
 const coments = {

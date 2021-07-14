@@ -1,0 +1,11 @@
+
+function generatePhoto(id) {
+    return {
+        id: id,
+        url: "photos/${id}.jpg",
+        description: "Моя новая фотография",
+        likes: getLikes(),
+        comments: getComments()
+    }
+}
+

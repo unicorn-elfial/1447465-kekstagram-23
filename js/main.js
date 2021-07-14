@@ -38,6 +38,10 @@ function id() {
 function getLikes() {
     return Math.floor(math.random() * 200) + 15;
 }
+function avatar() {
+    return Math.floor(math.random() * 6) + 1;
+}
+
 const coments = {
     id: '',
     avatar: '',

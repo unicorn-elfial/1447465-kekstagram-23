@@ -11,7 +11,7 @@ function generatePhoto(id) {
 function generationComments() {
     return {
         id: "",
-        avatar: "avatar/$-{avatar}.svg",
+        avatar: `img/avatar${-getAvatar()}.svg`,
         message: "Всё отлично!",
         name: names
     }

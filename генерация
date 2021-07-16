@@ -8,4 +8,11 @@ function generatePhoto(id) {
         comments: getComments()
     }
 }
-
+function generationComments() {
+    return {
+        id: "",
+        avatar: "avatar/$-{avatar}.svg",
+        message: "Всё отлично!",
+        name: names
+    }
+}

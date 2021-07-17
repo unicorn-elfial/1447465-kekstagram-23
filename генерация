@@ -13,6 +13,6 @@ function generationComments() {
         id: "",
         avatar: `img/avatar${-getAvatar()}.svg`,
         message: "Всё отлично!",
-        name: names
+        name: getNames()
     }
 }

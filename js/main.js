@@ -11,8 +11,8 @@ function getRandomIntInclusive(min, max) {
 function maxLine(checkedString, maxLength) {
       return checkedString <= maxLength;
 }
-const description = ['милота зашкаливает'];
-const message = ['Моя бабушка случайно чихнула с фотоаппаратом в руках и у неё получилась фотография лучше.']
+const description = ['Моя новая фотография'];
+const message = ['Всё отлично!']
 
 function randomNameIndex(min, max) {
     min = Math.ceil(min);
@@ -33,12 +33,13 @@ const url = 'photos/{{i}}.jpg';
 function id() {
     return Math.floor(math.random() * 25) + 1;
 }
-
+function getNames() {
+   Math.floor(Math.random() * names.length);
+}
 function getLikes() {
     return Math.floor(math.random() * 200) + 15;
 }
-
-function avatar() {
+function getAvatar() {
     return Math.floor(math.random() * 6) + 1;
 }
 

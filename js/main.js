@@ -1,4 +1,4 @@
-import './generation.js';
+
 
 import {
     checkStringLength   

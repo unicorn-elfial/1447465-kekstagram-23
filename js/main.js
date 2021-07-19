@@ -31,7 +31,7 @@ const names = [
 ];
 const url = 'photos/{{i}}.jpg';
 
-function id() {
+function getId() {
     return Math.floor(math.random() * 25) + 1;
 }
 function getNames() {

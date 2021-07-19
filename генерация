@@ -32,4 +32,4 @@ function generationComments() {
         name: getNames()
     }
 }
-console.log()
+console.log(generatePhoto);
